@@ -6,8 +6,6 @@ var list2 = document.getElementById('list2');
 var list3 = document.getElementById('list3');
 var list4 = document.getElementById('list4');
 
-// クリックイベント
-
 next.addEventListener('click', nextClick);
 prev.addEventListener('click', prevClick);
 
@@ -65,9 +63,7 @@ function prevClick() {
     list3.style.backgroundColor = '#000';
     count = 0;
   }
-};
-
-// インジケーター
+}
 
 list1.addEventListener('click', click1);
 list2.addEventListener('click', click2);
@@ -122,7 +118,6 @@ function click4() {
   count = 0;
 }
 
-// 自動スライド
 var count = 0;
 
 setInterval(() => {
